@@ -1,0 +1,719 @@
+©¦  game.txt
+©¦  gui.rpy
+©¦  gui.rpyc
+©¦  options.rpy
+©¦  options.rpyc
+©¦  screens.rpy
+©¦  screens.rpyc
+©¦  script.rpy
+©¦  script.rpyc
+©¦  SourceHanSansLite.ttf
+©¦  SourceHanSerifSC-VF.ttf
+©¦  
+©À©¤audio
+©¦  ©À©¤bgm
+©¦  ©¦      bgm.txt
+©¦  ©¦      bgm01.ogg
+©¦  ©¦      bgm01b.ogg
+©¦  ©¦      bgm01c.ogg
+©¦  ©¦      bgm02.ogg
+©¦  ©¦      bgm03.ogg
+©¦  ©¦      bgm04.ogg
+©¦  ©¦      bgm05.ogg
+©¦  ©¦      bgm06.ogg
+©¦  ©¦      bgm07.ogg
+©¦  ©¦      bgm08.ogg
+©¦  ©¦      bgm09.ogg
+©¦  ©¦      bgm10.ogg
+©¦  ©¦      bgm100.ogg
+©¦  ©¦      bgm101.ogg
+©¦  ©¦      bgm11.ogg
+©¦  ©¦      bgm12.ogg
+©¦  ©¦      bgm13.ogg
+©¦  ©¦      bgm14.ogg
+©¦  ©¦      bgm15.ogg
+©¦  ©¦      bgm16.ogg
+©¦  ©¦      bgm17.ogg
+©¦  ©¦      bgm18.ogg
+©¦  ©¦      bgm19.ogg
+©¦  ©¦      bgm20.ogg
+©¦  ©¦      bgm21.ogg
+©¦  ©¦      bgm22.ogg
+©¦  ©¦      bgm23.ogg
+©¦  ©¦      bgm24.ogg
+©¦  ©¦      bgm25.ogg
+©¦  ©¦      bgm26.ogg
+©¦  ©¦      bgm27.ogg
+©¦  ©¦      bgm28.ogg
+©¦  ©¦      bgm28b.ogg
+©¦  ©¦      bgm29.ogg
+©¦  ©¦      bgm29b.ogg
+©¦  ©¦      bgm30.ogg
+©¦  ©¦      bgm31.ogg
+©¦  ©¦      bgm32.ogg
+©¦  ©¦      bgm33.ogg
+©¦  ©¦      bgm34.ogg
+©¦  ©¦      bgm35.ogg
+©¦  ©¦      bgm36.ogg
+©¦  ©¦      bgm37.ogg
+©¦  ©¦      bgm94.ogg
+©¦  ©¦      bgm95.ogg
+©¦  ©¦      bgm96.ogg
+©¦  ©¦      bgm96b.ogg
+©¦  ©¦      bgm97.ogg
+©¦  ©¦      bgm98.ogg
+©¦  ©¦      bgm99.ogg
+©¦  ©¦      
+©¦  ©¸©¤voice
+©¦          c1_admit_f9eb282a.wav
+©¦          c1_topic_8469640d.wav
+©¦          ch2_leaving_10932a4b.wav
+©¦          ch2_leaving_1468cdf3.wav
+©¦          ch2_leaving_1a5b38ce.wav
+©¦          ch2_leaving_2bd3bb5c.wav
+©¦          ch2_leaving_3a2f7102.wav
+©¦          ch2_leaving_3c4cf352.wav
+©¦          ch2_leaving_4641d78c.wav
+©¦          ch2_leaving_55cdb545.wav
+©¦          ch2_leaving_5f10c668.wav
+©¦          ch2_leaving_7655b443.wav
+©¦          ch2_leaving_770ff828.wav
+©¦          ch2_leaving_7dd1f5df.wav
+©¦          ch2_leaving_82d0442d.wav
+©¦          ch2_leaving_8f712c43.wav
+©¦          ch2_leaving_a1d8c4c6.wav
+©¦          ch2_leaving_cdd8d01a.wav
+©¦          ch2_leaving_e318648a.wav
+©¦          ch2_leaving_ff1d0fc6.wav
+©¦          ch2_leaving_ff887980.wav
+©¦          start_2d81b8f4.wav
+©¦          start_31f20e05.wav
+©¦          start_4ca061a8.wav
+©¦          start_51b0cce4.wav
+©¦          start_5567dbd0.wav
+©¦          start_56c527e7.wav
+©¦          start_57f23270.wav
+©¦          start_79db119f.wav
+©¦          start_8b3aa1b5.wav
+©¦          start_c22f46c4.wav
+©¦          
+©À©¤cache
+©¦      bytecode-39.rpyb
+©¦      py3analysis.rpyb
+©¦      screens.rpyb
+©¦      shaders.txt
+©¦      
+©À©¤gui
+©¦  ©¦  0000.bmp
+©¦  ©¦  bubble.png
+©¦  ©¦  frame.png
+©¦  ©¦  game_menu.png
+©¦  ©¦  ico.jpg
+©¦  ©¦  main_menu.ogg
+©¦  ©¦  main_menu.png
+©¦  ©¦  mouse.png
+©¦  ©¦  namebox.png
+©¦  ©¦  notify.png
+©¦  ©¦  nvl.png
+©¦  ©¦  skip.png
+©¦  ©¦  textbox.png
+©¦  ©¦  textbox.psd
+©¦  ©¦  thoughtbubble.png
+©¦  ©¦  window_icon.png
+©¦  ©¦  
+©¦  ©À©¤bar
+©¦  ©¦      bottom.png
+©¦  ©¦      left.png
+©¦  ©¦      right.png
+©¦  ©¦      top.png
+©¦  ©¦      
+©¦  ©À©¤button
+©¦  ©¦      check_foreground.png
+©¦  ©¦      check_selected_foreground.png
+©¦  ©¦      choice_hover_background.png
+©¦  ©¦      choice_idle_background.png
+©¦  ©¦      hover_background.png
+©¦  ©¦      idle_background.png
+©¦  ©¦      quick_hover_background.png
+©¦  ©¦      quick_idle_background.png
+©¦  ©¦      radio_foreground.png
+©¦  ©¦      radio_selected_foreground.png
+©¦  ©¦      slot_hover_background.png
+©¦  ©¦      slot_idle_background.png
+©¦  ©¦      
+©¦  ©À©¤overlay
+©¦  ©¦      1.png
+©¦  ©¦      confirm.png
+©¦  ©¦      game_menu.png
+©¦  ©¦      main_menu.png
+©¦  ©¦      
+©¦  ©À©¤phone
+©¦  ©¦  ©¦  nvl.png
+©¦  ©¦  ©¦  textbox.png
+©¦  ©¦  ©¦  
+©¦  ©¦  ©À©¤bar
+©¦  ©¦  ©¦      bottom.png
+©¦  ©¦  ©¦      left.png
+©¦  ©¦  ©¦      right.png
+©¦  ©¦  ©¦      top.png
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤button
+©¦  ©¦  ©¦      check_foreground.png
+©¦  ©¦  ©¦      check_selected_foreground.png
+©¦  ©¦  ©¦      choice_hover_background.png
+©¦  ©¦  ©¦      choice_idle_background.png
+©¦  ©¦  ©¦      hover_background.png
+©¦  ©¦  ©¦      idle_background.png
+©¦  ©¦  ©¦      radio_foreground.png
+©¦  ©¦  ©¦      radio_selected_foreground.png
+©¦  ©¦  ©¦      slot_hover_background.png
+©¦  ©¦  ©¦      slot_idle_background.png
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤overlay
+©¦  ©¦  ©¦      game_menu.png
+©¦  ©¦  ©¦      main_menu.png
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤scrollbar
+©¦  ©¦  ©¦      horizontal_hover_bar.png
+©¦  ©¦  ©¦      horizontal_hover_thumb.png
+©¦  ©¦  ©¦      horizontal_idle_bar.png
+©¦  ©¦  ©¦      horizontal_idle_thumb.png
+©¦  ©¦  ©¦      vertical_hover_bar.png
+©¦  ©¦  ©¦      vertical_hover_thumb.png
+©¦  ©¦  ©¦      vertical_idle_bar.png
+©¦  ©¦  ©¦      vertical_idle_thumb.png
+©¦  ©¦  ©¦      
+©¦  ©¦  ©¸©¤slider
+©¦  ©¦          horizontal_hover_bar.png
+©¦  ©¦          horizontal_hover_thumb.png
+©¦  ©¦          horizontal_idle_bar.png
+©¦  ©¦          horizontal_idle_thumb.png
+©¦  ©¦          vertical_hover_bar.png
+©¦  ©¦          vertical_hover_thumb.png
+©¦  ©¦          vertical_idle_bar.png
+©¦  ©¦          vertical_idle_thumb.png
+©¦  ©¦          
+©¦  ©À©¤quick_menu
+©¦  ©¦  ©À©¤02c15
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      02c15.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c01
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c01.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c02
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c02.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c03
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c03.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c04
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c04.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c05
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c05.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c07a
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c07a.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c07b
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c07b.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c08a
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c08a.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c08b
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c08b.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c09
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c09.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c10
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c10.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c11
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c11.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤c12a
+©¦  ©¦  ©¦      0001.jpg
+©¦  ©¦  ©¦      0002.jpg
+©¦  ©¦  ©¦      0003.jpg
+©¦  ©¦  ©¦      c12a.jpg
+©¦  ©¦  ©¦      
+©¦  ©¦  ©¸©¤c12b
+©¦  ©¦          0001.jpg
+©¦  ©¦          0002.jpg
+©¦  ©¦          0003.jpg
+©¦  ©¦          c12b.jpg
+©¦  ©¦          
+©¦  ©À©¤scrollbar
+©¦  ©¦      horizontal_hover_bar.png
+©¦  ©¦      horizontal_hover_thumb.png
+©¦  ©¦      horizontal_idle_bar.png
+©¦  ©¦      horizontal_idle_thumb.png
+©¦  ©¦      vertical_hover_bar.png
+©¦  ©¦      vertical_hover_thumb.png
+©¦  ©¦      vertical_idle_bar.png
+©¦  ©¦      vertical_idle_thumb.png
+©¦  ©¦      
+©¦  ©¸©¤slider
+©¦          horizontal_hover_bar.png
+©¦          horizontal_hover_thumb.png
+©¦          horizontal_idle_bar.png
+©¦          horizontal_idle_thumb.png
+©¦          vertical_hover_bar.png
+©¦          vertical_hover_thumb.png
+©¦          vertical_idle_bar.png
+©¦          vertical_idle_thumb.png
+©¦          
+©À©¤images
+©¦  ©À©¤ai chr
+©¦  ©¦      ai.png
+©¦  ©¦      ai_1.png
+©¦  ©¦      ai_angry.png
+©¦  ©¦      ai_smile.png
+©¦  ©¦      
+©¦  ©À©¤ao cg
+©¦  ©¦      ao.txt
+©¦  ©¦      cg_ao01_0101.jpg
+©¦  ©¦      cg_ao01_0102.jpg
+©¦  ©¦      cg_ao01_0103.jpg
+©¦  ©¦      cg_ao01_0104.jpg
+©¦  ©¦      cg_ao01_0105.jpg
+©¦  ©¦      cg_ao01_0201.jpg
+©¦  ©¦      cg_ao01_0202.jpg
+©¦  ©¦      cg_ao01_0203.jpg
+©¦  ©¦      cg_ao02_0101.jpg
+©¦  ©¦      cg_ao02_0102.jpg
+©¦  ©¦      CG_AO03_0101.jpg
+©¦  ©¦      CG_AO03_0103.jpg
+©¦  ©¦      CG_AO03_0201.jpg
+©¦  ©¦      CG_AO03_0202.jpg
+©¦  ©¦      CG_AO03_0203.jpg
+©¦  ©¦      cg_ao04_0101.jpg
+©¦  ©¦      cg_ao04_0102.jpg
+©¦  ©¦      cg_ao04_0103.jpg
+©¦  ©¦      cg_ao04_0106.jpg
+©¦  ©¦      cg_ao04_0108.jpg
+©¦  ©¦      cg_ao04_0201.jpg
+©¦  ©¦      cg_ao04_0202.jpg
+©¦  ©¦      cg_ao04_0203.jpg
+©¦  ©¦      cg_ao04_0204.jpg
+©¦  ©¦      cg_ao04_0205.jpg
+©¦  ©¦      cg_ao04_0206.jpg
+©¦  ©¦      cg_ao04_0207.jpg
+©¦  ©¦      cg_ao04_0208.jpg
+©¦  ©¦      cg_ao04_0301.jpg
+©¦  ©¦      CG_AO05_0101.jpg
+©¦  ©¦      CG_AO05_0102.jpg
+©¦  ©¦      CG_AO05_0103.jpg
+©¦  ©¦      CG_AO05_0104.jpg
+©¦  ©¦      cg_ao06_0101.jpg
+©¦  ©¦      cg_ao06_0102.jpg
+©¦  ©¦      cg_ao07_0101.jpg
+©¦  ©¦      cg_ao07_0102.jpg
+©¦  ©¦      cg_ao07_0103.jpg
+©¦  ©¦      cg_ao07_0104.jpg
+©¦  ©¦      cg_ao07_0201.jpg
+©¦  ©¦      cg_ao07_0202.jpg
+©¦  ©¦      cg_ao07_0203.jpg
+©¦  ©¦      cg_ao07_0205.jpg
+©¦  ©¦      cg_ao08_0102.jpg
+©¦  ©¦      cg_ao08_0103.jpg
+©¦  ©¦      cg_ao08_0104.jpg
+©¦  ©¦      cg_ao08_0201.jpg
+©¦  ©¦      cg_ao08_0202.jpg
+©¦  ©¦      cg_ao08_0203.jpg
+©¦  ©¦      cg_ao08_0305.jpg
+©¦  ©¦      cg_ao09_0101.jpg
+©¦  ©¦      cg_ao09_0102.jpg
+©¦  ©¦      cg_ao09_0103.jpg
+©¦  ©¦      cg_ao09_0104.jpg
+©¦  ©¦      cg_ao09_0201.jpg
+©¦  ©¦      cg_ao10_0101.jpg
+©¦  ©¦      cg_ao10_0102.jpg
+©¦  ©¦      cg_ao10_0103.jpg
+©¦  ©¦      cg_ao10_0104.jpg
+©¦  ©¦      cg_ao10_0105.jpg
+©¦  ©¦      cg_ao10_0106.jpg
+©¦  ©¦      cg_ao10_0301.jpg
+©¦  ©¦      cg_ao11_0101.jpg
+©¦  ©¦      cg_ao12_0101.jpg
+©¦  ©¦      cg_ao12_0102.jpg
+©¦  ©¦      cg_ao12_0103.jpg
+©¦  ©¦      cg_ao12_0104.jpg
+©¦  ©¦      cg_ao13_0101.jpg
+©¦  ©¦      cg_ao13_0201.jpg
+©¦  ©¦      cg_ao13_0202.jpg
+©¦  ©¦      cg_ao13_0203.jpg
+©¦  ©¦      cg_ao13_0204.jpg
+©¦  ©¦      cg_ao13_0205.jpg
+©¦  ©¦      
+©¦  ©À©¤ao chr
+©¦  ©¦      bs2_ao010101.jpg
+©¦  ©¦      bs2_ao010201.jpg
+©¦  ©¦      bs2_ao010301.jpg
+©¦  ©¦      bs2_ao010401.jpg
+©¦  ©¦      bs2_ao011101.jpg
+©¦  ©¦      bs2_ao011201.jpg
+©¦  ©¦      bs2_ao011301.jpg
+©¦  ©¦      bs2_ao011401.jpg
+©¦  ©¦      bs2_ao020101.jpg
+©¦  ©¦      bs2_ao020201.jpg
+©¦  ©¦      bs2_ao020301.jpg
+©¦  ©¦      bs2_ao020401.jpg
+©¦  ©¦      bs2_ao021101.jpg
+©¦  ©¦      bs2_ao021201.jpg
+©¦  ©¦      bs2_ao021301.jpg
+©¦  ©¦      bs2_ao021401.jpg
+©¦  ©¦      bs2_ao030101.jpg
+©¦  ©¦      bs2_ao030201.jpg
+©¦  ©¦      bs2_ao030301.jpg
+©¦  ©¦      bs2_ao030401.jpg
+©¦  ©¦      bs2_ao031101.jpg
+©¦  ©¦      bs2_ao031201.jpg
+©¦  ©¦      bs2_ao031301.jpg
+©¦  ©¦      bs2_ao031401.jpg
+©¦  ©¦      bs2_ao_f01_01.jpg
+©¦  ©¦      bs2_ao_f01_02.jpg
+©¦  ©¦      bs2_ao_f01_03.jpg
+©¦  ©¦      bs2_ao_f01_04.jpg
+©¦  ©¦      bs2_ao_f01_05.jpg
+©¦  ©¦      bs2_ao_f01_06.jpg
+©¦  ©¦      bs2_ao_f01_07.jpg
+©¦  ©¦      bs2_ao_f01_08.jpg
+©¦  ©¦      bs2_ao_f01_09.jpg
+©¦  ©¦      bs2_ao_f01_10.jpg
+©¦  ©¦      bs2_ao_f01_11.jpg
+©¦  ©¦      bs2_ao_f01_12.jpg
+©¦  ©¦      bs2_ao_f01_13.jpg
+©¦  ©¦      bs2_ao_f01_14.jpg
+©¦  ©¦      bs2_ao_f01_15.jpg
+©¦  ©¦      bs2_ao_f01_16.jpg
+©¦  ©¦      bs2_ao_f02_01.jpg
+©¦  ©¦      bs2_ao_f02_02.jpg
+©¦  ©¦      bs2_ao_f02_03.jpg
+©¦  ©¦      bs2_ao_f02_04.jpg
+©¦  ©¦      bs2_ao_f02_05.jpg
+©¦  ©¦      bs2_ao_f02_06.jpg
+©¦  ©¦      bs2_ao_f02_07.jpg
+©¦  ©¦      bs2_ao_f02_08.jpg
+©¦  ©¦      bs2_ao_f02_09.jpg
+©¦  ©¦      bs2_ao_f02_10.jpg
+©¦  ©¦      bs2_ao_f02_11.jpg
+©¦  ©¦      bs2_ao_f02_12.jpg
+©¦  ©¦      bs2_ao_f02_13.jpg
+©¦  ©¦      bs2_ao_f02_14.jpg
+©¦  ©¦      bs2_ao_f02_15.jpg
+©¦  ©¦      bs2_ao_f02_16.jpg
+©¦  ©¦      bs2_ao_f11_01.jpg
+©¦  ©¦      bs2_ao_f11_02.jpg
+©¦  ©¦      bs2_ao_f11_03.jpg
+©¦  ©¦      bs2_ao_f11_04.jpg
+©¦  ©¦      bs2_ao_f11_05.jpg
+©¦  ©¦      bs2_ao_f11_06.jpg
+©¦  ©¦      bs2_ao_f11_07.jpg
+©¦  ©¦      bs2_ao_f11_08.jpg
+©¦  ©¦      bs2_ao_f11_09.jpg
+©¦  ©¦      bs2_ao_f11_10.jpg
+©¦  ©¦      bs2_ao_f11_11.jpg
+©¦  ©¦      bs2_ao_f11_12.jpg
+©¦  ©¦      bs2_ao_f11_13.jpg
+©¦  ©¦      bs2_ao_f11_14.jpg
+©¦  ©¦      bs2_ao_f11_15.jpg
+©¦  ©¦      bs2_ao_f11_16.jpg
+©¦  ©¦      bs2_ao_f11_17.jpg
+©¦  ©¦      bs2_ao_f11_18.jpg
+©¦  ©¦      bs2_ao_f11_19.jpg
+©¦  ©¦      f_bs2_ao010101.jpg
+©¦  ©¦      f_bs2_ao010201.jpg
+©¦  ©¦      f_bs2_ao010301.jpg
+©¦  ©¦      f_bs2_ao010401.jpg
+©¦  ©¦      f_bs2_ao011101.jpg
+©¦  ©¦      f_bs2_ao011201.jpg
+©¦  ©¦      f_bs2_ao011301.jpg
+©¦  ©¦      f_bs2_ao011401.jpg
+©¦  ©¦      f_bs2_ao020101.jpg
+©¦  ©¦      f_bs2_ao020201.jpg
+©¦  ©¦      f_bs2_ao020301.jpg
+©¦  ©¦      f_bs2_ao020401.jpg
+©¦  ©¦      f_bs2_ao021101.jpg
+©¦  ©¦      f_bs2_ao021201.jpg
+©¦  ©¦      f_bs2_ao021301.jpg
+©¦  ©¦      f_bs2_ao021401.jpg
+©¦  ©¦      f_bs2_ao030101.jpg
+©¦  ©¦      f_bs2_ao030201.jpg
+©¦  ©¦      f_bs2_ao030301.jpg
+©¦  ©¦      f_bs2_ao030401.jpg
+©¦  ©¦      f_bs2_ao031101.jpg
+©¦  ©¦      f_bs2_ao031201.jpg
+©¦  ©¦      f_bs2_ao031301.jpg
+©¦  ©¦      f_bs2_ao031401.jpg
+©¦  ©¦      release.bat
+©¦  ©¦      
+©¦  ©À©¤bg
+©¦  ©¦      bg.txt
+©¦  ©¦      bg001a.jpg
+©¦  ©¦      bg001a1.jpg
+©¦  ©¦      bg001e.jpg
+©¦  ©¦      bg001e1.jpg
+©¦  ©¦      bg001n.jpg
+©¦  ©¦      bg001n1.jpg
+©¦  ©¦      bg001n2.jpg
+©¦  ©¦      bg002a.jpg
+©¦  ©¦      bg002e.jpg
+©¦  ©¦      bg002n.jpg
+©¦  ©¦      bg003a.jpg
+©¦  ©¦      bg003e.jpg
+©¦  ©¦      bg003n.jpg
+©¦  ©¦      bg003n1.jpg
+©¦  ©¦      bg004a.jpg
+©¦  ©¦      bg004e.jpg
+©¦  ©¦      bg004n.jpg
+©¦  ©¦      bg005a.jpg
+©¦  ©¦      bg005e.jpg
+©¦  ©¦      bg005n.jpg
+©¦  ©¦      bg006a.jpg
+©¦  ©¦      bg006a1.jpg
+©¦  ©¦      bg006e.jpg
+©¦  ©¦      bg006n.jpg
+©¦  ©¦      bg007a.jpg
+©¦  ©¦      bg007e.jpg
+©¦  ©¦      bg007n.jpg
+©¦  ©¦      bg008a.jpg
+©¦  ©¦      bg008e.jpg
+©¦  ©¦      bg008n.jpg
+©¦  ©¦      bg009a.jpg
+©¦  ©¦      bg009a1.jpg
+©¦  ©¦      bg009a2.jpg
+©¦  ©¦      bg009e.jpg
+©¦  ©¦      bg009n.jpg
+©¦  ©¦      bg009n1.jpg
+©¦  ©¦      bg010a.jpg
+©¦  ©¦      bg010e.jpg
+©¦  ©¦      bg010n.jpg
+©¦  ©¦      bg011a.jpg
+©¦  ©¦      bg011e.jpg
+©¦  ©¦      bg011n.jpg
+©¦  ©¦      bg011n1.jpg
+©¦  ©¦      bg012a.jpg
+©¦  ©¦      bg012e.jpg
+©¦  ©¦      bg012n.jpg
+©¦  ©¦      bg012n1.jpg
+©¦  ©¦      bg013a.jpg
+©¦  ©¦      bg013e.jpg
+©¦  ©¦      bg013n.jpg
+©¦  ©¦      bg014a.jpg
+©¦  ©¦      bg014a1.jpg
+©¦  ©¦      bg014e.jpg
+©¦  ©¦      bg014n.jpg
+©¦  ©¦      bg015a.jpg
+©¦  ©¦      bg015e.jpg
+©¦  ©¦      bg015n.jpg
+©¦  ©¦      bg016a.jpg
+©¦  ©¦      bg016e.jpg
+©¦  ©¦      bg016n.jpg
+©¦  ©¦      bg017a.jpg
+©¦  ©¦      bg017e.jpg
+©¦  ©¦      bg017n.jpg
+©¦  ©¦      bg017n1.jpg
+©¦  ©¦      bg018a.jpg
+©¦  ©¦      bg018e.jpg
+©¦  ©¦      bg018n.jpg
+©¦  ©¦      bg019a.jpg
+©¦  ©¦      bg019a1.jpg
+©¦  ©¦      bg019e.jpg
+©¦  ©¦      bg019e1.jpg
+©¦  ©¦      bg019n.jpg
+©¦  ©¦      bg019n1.jpg
+©¦  ©¦      bg019n2.jpg
+©¦  ©¦      bg019n3.jpg
+©¦  ©¦      bg020a.jpg
+©¦  ©¦      bg020a1.jpg
+©¦  ©¦      bg020e.jpg
+©¦  ©¦      bg020n.jpg
+©¦  ©¦      bg021a.jpg
+©¦  ©¦      bg021e.jpg
+©¦  ©¦      bg021n.jpg
+©¦  ©¦      bg021n1.jpg
+©¦  ©¦      bg022a.jpg
+©¦  ©¦      bg022e.jpg
+©¦  ©¦      bg022n.jpg
+©¦  ©¦      bg101a.jpg
+©¦  ©¦      bg101e.jpg
+©¦  ©¦      bg101n.jpg
+©¦  ©¦      bg102a.jpg
+©¦  ©¦      bg102e.jpg
+©¦  ©¦      bg102n.jpg
+©¦  ©¦      bg201a.jpg
+©¦  ©¦      bg201e.jpg
+©¦  ©¦      bg201n.jpg
+©¦  ©¦      bg202a.jpg
+©¦  ©¦      bg202a1.jpg
+©¦  ©¦      bg202n.jpg
+©¦  ©¦      bg202n1.jpg
+©¦  ©¦      bg301a.jpg
+©¦  ©¦      bg301a2.jpg
+©¦  ©¦      bg301e.jpg
+©¦  ©¦      bg301n.jpg
+©¦  ©¦      bg301n1.jpg
+©¦  ©¦      bg301n2.jpg
+©¦  ©¦      bg302a.jpg
+©¦  ©¦      bg302a1.jpg
+©¦  ©¦      bg303a.jpg
+©¦  ©¦      bg303a1.jpg
+©¦  ©¦      bg304a.jpg
+©¦  ©¦      bg304a1.jpg
+©¦  ©¦      bg304a2.jpg
+©¦  ©¦      bg304a_sp01.jpg
+©¦  ©¦      bg304a_sp02.jpg
+©¦  ©¦      bg304e.jpg
+©¦  ©¦      bg304e1.jpg
+©¦  ©¦      bg304e2.jpg
+©¦  ©¦      bg304e_sp01.jpg
+©¦  ©¦      bg304e_sp02.jpg
+©¦  ©¦      bg304n.jpg
+©¦  ©¦      bg304n1.jpg
+©¦  ©¦      bg304n2.jpg
+©¦  ©¦      bg304n_sp01.jpg
+©¦  ©¦      bg304n_sp02.jpg
+©¦  ©¦      bg305a.jpg
+©¦  ©¦      bg401a.jpg
+©¦  ©¦      bg401e.jpg
+©¦  ©¦      bg401n.jpg
+©¦  ©¦      bg402a.jpg
+©¦  ©¦      bg402a_full.jpg
+©¦  ©¦      bg402e.jpg
+©¦  ©¦      bg402e_full.jpg
+©¦  ©¦      bg402n.jpg
+©¦  ©¦      bg402n1.jpg
+©¦  ©¦      bg402n1_full.jpg
+©¦  ©¦      bg402n_full.jpg
+©¦  ©¦      bg403a.jpg
+©¦  ©¦      bg403e.jpg
+©¦  ©¦      bg403n.jpg
+©¦  ©¦      bg404a.jpg
+©¦  ©¦      bg404e.jpg
+©¦  ©¦      bg404n.jpg
+©¦  ©¦      bg404n1.jpg
+©¦  ©¦      bg901a.jpg
+©¦  ©¦      bg901n.jpg
+©¦  ©¦      bg901n1.jpg
+©¦  ©¦      bg902a.jpg
+©¦  ©¦      bg902e.jpg
+©¦  ©¦      bg902n.jpg
+©¦  ©¦      bg902n1.jpg
+©¦  ©¦      bg902n2.jpg
+©¦  ©¦      bg902n3.jpg
+©¦  ©¦      bg902n4.jpg
+©¦  ©¦      bg904a.jpg
+©¦  ©¦      bg905a.jpg
+©¦  ©¦      bg999a.jpg
+©¦  ©¦      bg999a2.jpg
+©¦  ©¦      bg999a_01.jpg
+©¦  ©¦      bg999a_02.jpg
+©¦  ©¦      bg999a_03.jpg
+©¦  ©¦      bg999a_04.jpg
+©¦  ©¦      bg999e.jpg
+©¦  ©¦      bg999e_01.jpg
+©¦  ©¦      bg999e_02.jpg
+©¦  ©¦      bg999e_03.jpg
+©¦  ©¦      bg999e_04.jpg
+©¦  ©¦      BG999k.jpg
+©¦  ©¦      bg999n.jpg
+©¦  ©¦      bg999n1.jpg
+©¦  ©¦      bg999n1_01.jpg
+©¦  ©¦      bg999n1_02.jpg
+©¦  ©¦      bg999n1_03.jpg
+©¦  ©¦      bg999n1_04.jpg
+©¦  ©¦      bg999n2.jpg
+©¦  ©¦      bg999n3.jpg
+©¦  ©¦      bg999n_01.jpg
+©¦  ©¦      bg999n_02.jpg
+©¦  ©¦      bg999n_03.jpg
+©¦  ©¦      bg999n_04.jpg
+©¦  ©¦      bg_kuro.jpg
+©¦  ©¦      bg_kuron.jpg
+©¦  ©¦      bg_red.jpg
+©¦  ©¦      bg_siro.jpg
+©¦  ©¦      bg_siron.jpg
+©¦  ©¦      
+©¦  ©À©¤bs chr
+©¦  ©¦      bs2_ru_f01_01.bmp
+©¦  ©¦      bs2_ru_f01_02.bmp
+©¦  ©¦      bs2_ru_f01_03.bmp
+©¦  ©¦      bs2_ru_f01_04.bmp
+©¦  ©¦      bs2_ru_f01_05.bmp
+©¦  ©¦      bs2_ru_f01_06.bmp
+©¦  ©¦      bs2_ru_f01_07.bmp
+©¦  ©¦      bs2_ru_f01_08.bmp
+©¦  ©¦      bs2_ru_f01_09.bmp
+©¦  ©¦      bs2_ru_f01_10.bmp
+©¦  ©¦      bs2_ru_f01_11.bmp
+©¦  ©¦      bs2_ru_f01_12.bmp
+©¦  ©¦      f_bs2_ru040101.bmp
+©¦  ©¦      f_bs2_ru040201.bmp
+©¦  ©¦      f_bs2_ru040301.bmp
+©¦  ©¦      
+©¦  ©¸©¤in chr
+©¦          bs1_in010101.jpg
+©¦          bs1_in010201.jpg
+©¦          bs1_in010301.jpg
+©¦          bs1_in010401.jpg
+©¦          bs1_in020101.jpg
+©¦          bs1_in020201.jpg
+©¦          bs1_in020301.jpg
+©¦          bs1_in020401.jpg
+©¦          bs1_in_f01_01.jpg
+©¦          bs1_in_f01_02.jpg
+©¦          bs1_in_f01_03.jpg
+©¦          bs1_in_f01_04.jpg
+©¦          bs1_in_f01_05.jpg
+©¦          bs1_in_f01_06.jpg
+©¦          bs1_in_f01_07.jpg
+©¦          bs1_in_f01_08.jpg
+©¦          
+©¦      
+©¸©¤tl
+    ©¸©¤None
+            common.rpym
+            common.rpymc
+            

@@ -16,3 +16,5 @@ dialogue.tab
 *.ogg
 !game.txt
 *.rpyc
+!LICENSE.txt
+*.zip

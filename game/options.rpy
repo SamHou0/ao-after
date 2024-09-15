@@ -37,6 +37,8 @@ define gui.about = _p("""脚本/SamHou
 
 本项目一部分美术资源由 @log007 创作，版权归画师所有，作者已经取得画师授权。
 
+本项目配音由GPT-SOVITS提供支持。
+
 本程序为 Summer Pockets 的同人作品，所包含的大部分美术、音乐文件从官方作品中提取，禁止用作商业用途。
 
 作为同人作品，本作品免费发布，可自由体验，但请勿二次分发。
@@ -190,6 +192,7 @@ init python:
     build.classify('**.bmp', None)
     build.classify('**.bat', None)
     build.classify('**.psd', None)
+    build.classify('**.zip', None)
 
     ## 若要封装文件，需将其列为“archive”。
 

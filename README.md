@@ -13,9 +13,11 @@
 
 必须遵守LICENSE.txt。
 
-[点此下载可执行的包]()
+[（玩家下这个）点此下载可执行的包 提取码spao 解压密码sorakadoao](https://www.123pan.com/s/U1KFTd-tnU0A?提取码:spao)
 
-[（仅针对开发者）点此下载项目完整包]()
+[（仅针对开发者）点此下载项目完整包 提取码spao 解压密码sorakadoao](https://www.123pan.com/s/U1KFTd-ZnU0A?提取码:spao)
+
+[点击此处，在线观看本二创全流程视频](https://space.bilibili.com/456964528/channel/collectiondetail?sid=3314739)
 
 ## 关于Git存储库
 

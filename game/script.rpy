@@ -260,7 +260,7 @@ label ch0_3:
     show ao com_stand smile with dissolve
     "苍" "准备好了吗？"
     "羽依里" "什么准备好了？"
-    "苍" "当然是……这个啊～"
+    "苍" "当然是……"
     play music "bgm/bgm34.ogg" fadein 1.5
     show ao com_stand eye_closed_smile:
         xalign 0.49
@@ -385,7 +385,7 @@ label ch0_3:
     "羽依里" "苍，等着我……"
     stop music fadeout 3.0
     "就这样进入了梦乡。"
-    scene bg_kuro with fade
+    scene bg017a with fade
     show text "～August 30th～" at truecenter with dissolve
     pause 2.0
     scene bg017a with fade
@@ -397,8 +397,8 @@ label ch0_3:
     "蓝" "要走了吗？"
     "羽依里" "嗯。我下周会回来的。"
     scene cg_ao09_0201 with fade
-    "羽依里" "苍，我走了。一定要，等着我哦？"
-    "羽依里" "绝对不可以自己，抛下我哦？"
+    "羽依里" "苍，我走了。一定要等着我哦？"
+    "羽依里" "绝对不可以自己抛下我哦？"
     "苍仍然熟睡着。"
     "蓝" "我有种直觉，苍可能短期内不会醒了。"
     "羽依里" "换句话说，长期还是有希望的。"
@@ -469,9 +469,11 @@ label ch0_3:
     "……"
     jump ch1_1
 label ch1_1:
-    show text "～September Week 1～" at truecenter with fade
-    scene bg001a1 with fade
     play music "bgm/bgm01.ogg" fadein 2.0
+    scene bg001a1 with fade
+    show text "～September Week 1～" at truecenter
+    pause 2.0
+    scene bg001a1 with fade
     "夏季的炎热仍未过去。"
     "时隔一周，我再次回到了鸟白岛。"
     "羽依里" "苍，我回来了！"
@@ -518,12 +520,14 @@ label ch1_1:
     scene bg009a with fade
     "外面的天气仍然和八月份没什么区别。"
     play music "bgm/bgm04.ogg" fadein 3.0
-    "羽依里" "欸？什么东西掉了？"
-    "我捡起那张从口袋里掉出来的东西。"
-    "羽依里" "啊，原来是船票啊。"
-    "羽依里" "可是我现在只有1000日元。这不是完全不够吗！"
-    "现在有一件非常紧急的事情。"
+    "接下来的几天，要干什么呢？"
+    "后天就要回去了，得抓紧时间了。"
+    "……回程？"
+    "不对，现在有一件更紧急的事情。"
     "今天是周五，我必须在后天下午前攒够钱，来买回程的船票。"
+    "下意识摸了摸口袋。"
+    "1000 日元。"
+    "只有 1000 日元啊。"
     "该怎么做呢？"
     menu:
         "打工":
@@ -548,8 +552,8 @@ label ch1_1_c1:
     "羽依里" "啊，那就薯片吧。"
     "和糕点相比，薯片很好吃……"
     "不对，我在想什么啊！"
-    "看到老奶奶的笑容，根本就没办法拒绝了！面对这样的老奶奶要怎么把拿钱说出口啊！"
-    "本来想看店一会儿之后就鼓起勇气对老奶奶说出实话，不过老奶奶把店托付给我之后，就走了啊！"
+    "看到老奶奶的笑容，根本就没办法拒绝了！面对这样的老奶奶要怎么把拿钱说出口嘛！"
+    "本来想看店一会儿之后就鼓起勇气对老奶奶说出实话，不过老奶奶把店托付给我之后，就走了……"
     scene bg002e with dissolve
     "结果直到关店，只带了几罐薯片回家……"
     jump ch1_2
@@ -825,7 +829,9 @@ label ch1_3:
     "时间线发生了交错……"
     "那么，不属于这个世界的东西，就会出现……"
     "……"
-    show text "～October Week 1～" at truecenter with fade
+    scene bg009a with fade
+    show text "～October Week 1～" at truecenter
+    pause 2.0
     scene bg009a with fade
     play music "bgm/bgm07.ogg" fadein 3.0
     "入秋了。"
@@ -932,6 +938,12 @@ label ch1_4:
     "啊，已经那么晚了啊。"
     "该走了，否则医院可能就要来找人了。"
     "背起熟睡的苍，一口气走到了山脚的轮椅旁……"
-    "To be continued...v2.0暂时到这里，即将返回主界面，请立即存档！"
+    scene bg009a with fade
+    show text "～November Week1～" at truecenter with fade
+    pause 2.0
+    scene bg009a with fade
+    play music "bgm/bgm01.ogg" fadein 2.0
+    "本版本游戏到此为止，请立即存档。"
+    
     return
     # 此处为游戏结尾。

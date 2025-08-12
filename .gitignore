@@ -18,3 +18,7 @@ dialogue.tab
 *.rpyc
 !LICENSE.txt
 *.zip
+game/renpy_warp_1.21.0_4da24fd2.rpe.py
+game/renpy_warp_1.35.0_76860b81.rpe.py
+game/script.rpy
+game/renpy_warp_2.1.2_bfed3160.rpe.py

@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir: "/md",
+  srcDir: "../md",
 
   title: "苍 After Story 发布站",
   description: "在此找到关于该同人 Gal 的一切",

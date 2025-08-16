@@ -21,7 +21,7 @@ define gui.show_name = True
 
 ## 游戏版本号。
 
-define config.version = "2.1"
+define config.version = "3.0"
 
 
 ## 放置在游戏内“关于”屏幕上的文本。将文本放在三个引号之间，并在段落之间留出空
@@ -31,13 +31,11 @@ define gui.about = _p("""脚本/SamHou
 
 文案/SamHou
 
-美术/log007
+美术/By AI
 
 本项目的作者是 @SamHou0，文本、脚本版权归作者所有。
 
-本项目一部分美术资源由 @log007 创作，版权归画师所有，作者已经取得画师授权。
-
-本项目配音由GPT-SOVITS提供支持。
+本项目配音由 GPT-SOVITS 提供支持。
 
 本程序为 Summer Pockets 的同人作品，所包含的大部分美术、音乐文件从官方作品中提取，禁止用作商业用途。
 

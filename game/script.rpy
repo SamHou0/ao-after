@@ -2,6 +2,10 @@
 style red_highlight:
     color "ff8081"
     size 45
+transform shake:
+    linear 0.05 xoffset -10
+    linear 0.05 xoffset 10
+    repeat
 # 声明此游戏使用的角色。颜色参数可使角色姓名着色。
 
 layeredimage bs:
@@ -42,6 +46,37 @@ layeredimage ao:
             "images/ao chr/bs2_ao_f11_19.jpg"
         attribute earnest:
             "images/ao chr/bs2_ao_f11_05.jpg"
+layeredimage ai:
+    zoom 0.3
+    yalign 0.3
+    always:
+        "images/ai chr/ai.png"
+layeredimage ru:
+    offset(0,300)
+    group outfit:
+        attribute normal:
+            "images/ru chr/bs2_ru040101.jpg"
+    group face:
+        attribute smile:
+            offset(217.34,141.637)
+            "images/ru chr/bs2_ru_f01_02.jpg"
+layeredimage ky:
+    offset(0,300)
+    group outfit:
+        attribute normal:
+            "images/ky chr/bs2_ky010101.jpg"
+    group face:
+        attribute want_to_say:
+            offset(154,74)
+            "images/ky chr/bs2_ky_f01_11.jpg"
+        attribute smile:
+            offset(154,74)
+            "images/ky chr/bs2_ky_f02_02.jpg"
+        attribute surprise:
+            offset(154,74)
+            "images/ky chr/bs2_ky_f01_09.jpg"
+        
+
 # 游戏在此开始。
 
 label start:
@@ -432,7 +467,7 @@ label ch0_3:
     "不知为何，脑中突然蹦出来一句话。"
     "“终有回响”……是吗……"
     scene bg_kuro with fade
-    show text "～September 1st～" at truecenter with fade
+    show text "～September 1st～" at truecenter with dissolve
     pause 2.0
     scene bg_kuro with dissolve
     "新的学期开始了。"
@@ -471,7 +506,7 @@ label ch0_3:
 label ch1_1:
     play music "bgm/bgm01.ogg" fadein 2.0
     scene bg001a1 with fade
-    show text "～September Week 1～" at truecenter
+    show text "～September Week 1～" at truecenter with dissolve
     pause 2.0
     scene bg001a1 with fade
     "夏季的炎热仍未过去。"
@@ -480,10 +515,7 @@ label ch1_1:
     "一旁的旅客投以怪异的目光。"
     scene bg009a with fade
     "……来到了医院。"
-    show ai with dissolve:
-        zoom 0.3
-        xalign 0.5
-        yalign 0.3
+    show ai with dissolve
     "蓝" "羽依里！欢迎回来！"
     "羽依里" "我回来了。蓝已经可以下床活动了吗？"
     "蓝" "医生说恢复得很好，大概再过几个月就可以出院了。"
@@ -830,15 +862,12 @@ label ch1_3:
     "那么，不属于这个世界的东西，就会出现……"
     "……"
     scene bg009a with fade
-    show text "～October Week 1～" at truecenter
+    show text "～October Week 1～" at truecenter with dissolve
     pause 2.0
     scene bg009a with fade
     play music "bgm/bgm07.ogg" fadein 3.0
     "入秋了。"
-    show ai with dissolve:
-        zoom 0.3
-        xalign 0.5
-        yalign 0.3
+    show ai with dissolve
     "蓝的身体似乎正在恢复，已经能够在医院内自由走动了。"
     "过一段时间估计就可以出院了吧。"
     "今天也带苍出去走走吧。"
@@ -939,14 +968,11 @@ label ch1_4:
     "该走了，否则医院可能就要来找人了。"
     "背起熟睡的苍，一口气走到了山脚的轮椅旁……"
     scene bg009a with fade
-    show text "～November Week1～" at truecenter with fade
+    show text "～November Week1～" at truecenter with dissolve
     pause 2.0
     scene bg009a with fade
     play music "bgm/bgm01.ogg" fadein 2.0
-    show ai with dissolve:
-        zoom 0.3
-        xalign 0.5
-        yalign 0.3
+    show ai with dissolve
     "医院的门口。"
     "蓝、空门家的母亲和我正庆祝着蓝出院的时刻。"
     "虽然暂时无法跑跳，但是她至少能够一个人正常生活了。"
@@ -969,10 +995,7 @@ label ch1_4:
     scene bg003a with fade
     "我们来到了一旁窄窄的小巷里。"
     "这里一个人也没有，是绝佳的隐蔽地点。"
-    show ai with dissolve:
-        zoom 0.3
-        xalign 0.5
-        yalign 0.3
+    show ai with dissolve
     "蓝" "羽依里。"
     "羽依里" "在！……怎么突然这么认真。"
     "蓝" "我想提一个任性的要求，可以吗？"
@@ -980,10 +1003,7 @@ label ch1_4:
     "蓝" "可以请你在接下来的一段时间里，和我一起晚上上山吗？"
     "蓝" "毕竟已经10年了，或许山路也变了……"
     hide ai
-    show ai with dissolve:
-        zoom 0.4
-        xalign 0.5
-        yalign 0.3
+    show ai with dissolve
     "蓝" "可以请你在暑假前，和我一起上山吗？"
     "羽依里" "是想找苍的七影蝶吗？"
     "蓝" "虽然概率很小，但或许，小苍的记忆现在正在等着呢。"
@@ -1066,7 +1086,7 @@ label ch1_4:
     "稻荷似乎已经完全明白了我想要做什么，看到七影蝶时便会紧紧咬着我的裤腿把我拉开，我也因此不需要自己一个个确认。"
     "时间，正向着第二个夏天流逝。"
     scene bg009e with fade
-    show text "～December Week 4～" at truecenter with fade
+    show text "～December Week 4～" at truecenter with dissolve
     pause 2.0
     scene bg009a with fade
     play music "bgm/bgm04.ogg" fadein 2.0
@@ -1074,10 +1094,7 @@ label ch1_4:
     "鸟白岛上虽然没有下起雪，阵阵冷风却吹得我身体发抖。"
     "我提着行李走在那条熟悉的小路上。"
     "前面有个人影依稀可见。"
-    show ai with dissolve:
-        zoom 0.3
-        xalign 0.5
-        yalign 0.3
+    show ai with dissolve
     "紫色的头发，那是蓝吗？"
     hide ai with dissolve
     "我加快了脚步，但前方的人抢先一步，走入了医院。"
@@ -1262,7 +1279,7 @@ label ch1_5:
     scene bg904a at Position(yoffset=200) with fade 
     "就这样，夏天再次到来了。"
     scene bg202n with fade
-    show text "～July 26th～" at truecenter with fade
+    show text "～July 26th～" at truecenter with dissolve
     pause 2.0
     scene bg202n with fade
     "羽依里" "好了，开始吧。"
@@ -1271,12 +1288,475 @@ label ch1_5:
     show bs happy with ease:
         xoffset -200
     show ai with dissolve:
-        zoom 0.3
         xalign 0.8
-        yalign 0.3
     "稻荷在前面带路，而蓝则跟在我的后面。"
     "我们的夏日冒险，再次开始了——"
     stop music fadeout 2.0
-    "v3.0版本到此为止，请立即存档"
+    jump ch2_1
+label ch2_1:
+    scene bg011n with fade
+    play music "bgm/bgm28b.ogg" fadein 0.5
+    "拿着不知从哪里找来的谜之草稿纸，再次拜托镜子阿姨抄一遍古书之后，我和蓝一起上了山。"
+    "——会发光的蝴蝶。"
+    "一路上，七影蝶藏在山路的各个角落。"
+    "每当一只蝴蝶出现，我的内心总会一动，驱使着我向它移动。"
+    show bs happy with dissolve
+    "稻荷" "蹦——"
+    hide bs with dissolve
+    "它奔向那只蝴蝶，却又失望地远离。"
+    "果然没有这么简单。"
+    "第一晚就找到，是不可能的。"
+    stop music fadeout 2.0
+    scene bg202n with fade
+    "当吊灯周围挤满七影蝶时，两人一只不得已踏上了返程的道路。"
+    play music "bgm/bgm13.ogg" fadein 0.5
+    "蓝" "没有找到呢。"
+    "羽依里" "是啊。"
+    "尽管无功而返，我却为替代苍执行她的使命感到有些小激动。"
+    "抬头望去，眼前却仅有一棵迷途橘，竖立在光秃秃的平原上。"
+    "她不在这里。"
+    "羽依里" "苍，你看到了吗。"
+    "羽依里" "我在代替执行你的使命哦。"
+    "羽依里" "所以，赶快回来吧——"
+    stop music fadeout 2.0
+    scene bg009a with fade:
+        matrixcolor SaturationMatrix(0.0)
+    play music "bgm/bgm15.ogg" fadein 0.5
+    "我顺着那记忆中的路线前进。"
+    "那走了成百上千遍的，熟悉的路线。"
+    "“熟悉”？"
+    "为什么我会认为这个路线很熟悉呢？"
+    "我似乎忘记了一些很重要的事情。"
+    "不知不觉中，来到了那个地方。"
+    scene bg201a with fade:
+        matrixcolor SaturationMatrix(0.0)
+    "居民区的小屋内，装着各式各样的蝴蝶标本。"
+    "蝴蝶标本？"
+    "有一种蝴蝶，好像没有标本。"
+    "追寻记忆的旅途。"
+    "记忆……？"
+    stop music fadeout 0.5
+    scene bg202n with fade
+    show text "~ August 2nd ~" at truecenter with dissolve
+    pause 2.0
+    scene bg011n1 with fade
+    "第七天了。"
+    play music "bgm/bgm18.ogg" fadein 0.5
+    "我们搜遍了整个森林，在地图上标记了所有地点。"
+    "虽然七影蝶出现的地方是随机的，这种标记也只是徒劳罢了。"
+    "会不会永远找不到？"
+    "一闪而过的阴影。"
+    "羽依里" "不会的。"
+    "羽依里" "都说好了，十年我也会继续下去。"
+    "万一你看不见呢？"
+    "小小的声音在脑内响起。"
+    "羽依里" "不不不，怎么能这么想呢。"
+    "羽依里" "先别考虑这么多，先做了再说。"
+    "而且还得想想办法，会不会有什么捷径。"
+    "比如再抓一只稻荷。"
+    "不过第二只，会不会有这种能力呢？"
+    "不确定。"
+    "还是先放弃思考比较好。"
+    scene bg202n with fade
+    stop music fadeout 0.5
+    "来到了迷途橘前。"
+    "把手放在树皮上，感受着老树的温度。"
+    "夏日夜晚的树皮十分凉爽。"
+    play music "bgm/bgm27.ogg" fadein 0.5
+    "羽依里" "我们也是老朋友了啊。"
+    show ai with dissolve
+    "蓝" "哈啊……"
+    "羽依里" "累了吗？"
+    "蓝" "有点困。赶紧回去睡觉吧。"
+    hide ai with dissolve
+    "我把灯挂回原处，那些蝴蝶在开始绕着树盘旋。"
+    "它们渐渐飞翔、升高——"
+    "不断升高……"
+    "蓝" "羽依里？"
+    "蓝" "回去啦，快走吧。"
+    "羽依里" "……"
+    "蓝" "羽依里……？"
+    "蓝走过来，拉住我的手。"
+    "蓝" "在发什么呆呢？"
+    "羽依里" "对不起，稍微开了个小差。"
+    "蓝" "……"
+    stop music fadeout 0.5
+    scene bg011n1 with fade
+    "回去的路上，我们再也没说过什么。"
+    "或许是捕捉到了我内心的那一瞬动摇。"
+    "而那种不安，正随着夏日的流逝而不断加剧。"
+    "‘真能找到吗？’"
+    play sound "effect/wood-fall-down.mp3"
+    show layer master at shake 
+    with Pause(0.5)
+    show layer master
+    "蓝" "羽依里！！！"
+    "羽依里" "啊？"
+    "我的手突然被另外一只手握住。"
+    "羽依里" "怎么了这么突然……"
+    "回头看去。"
+    play music "bgm/bgm13.ogg" fadein 0.5
+    "那里是悬崖，是深不可测的万丈深渊。"
+    "冷汗直冒。"
+    show ai with dissolve
+    "蓝" "你今天怎么了，心不在焉的？"
+    "羽依里" "抱歉……我没事"
+    "蓝" "……"
+    "她再也没多问些什么。"
+    stop music fadeout 0.5
+    scene bg002a with fade
+    show text "~ August 3nd ~" at truecenter with dissolve
+    pause 2.0
+    scene bg002a with fade
+    play music "bgm/bgm10.ogg" fadein 0.5
+    "我们看望完苍，来到粗点心店的时候，已经是下午了。"
+    "羽依里" "对了，蓝喜欢刨冰吗？"
+    show ai with dissolve
+    "蓝" "是啊，出院的时候都是冬天了，没机会尝。"
+    "羽依里" "那我请你吃吧。要哪一个呢？虽然口味都一样就是了。"
+    "蓝" "蓝色夏威夷？"
+    play sound "effect/ice-cracking.mp3"
+    "刨冰机器发出一阵冰块破裂的声响。"
+    "蓝" "哦~！冰冰的很好吃呢。还是和小时候一样的味道呢。"
+    "刨冰这种东西好像味道也不会变吧……"
+    "不过她喜欢就好。"
+    hide ai with dissolve
+    show ru normal smile with dissolve
+    "良一" "哟。"
+    "羽依里" "嘿。"
+    "良一递了个脸色。"
+    "良一" "稍微过来一下。"
+    "羽依里" "？？？"
+    hide ru with dissolve
+    transform zoom_right:
+        linear 1.0 zoom 1.6 offset(-600,400)
+    show bg002a at zoom_right
+    "粗点心店旁边的阴暗角落。"
+    show ru normal smile at truecenter with dissolve
+    "良一" "给你看看。我的新宝贝。"
+    play sound "effect/coin-get.mp3"
+    show text "~获得了良一的 *** 书精选集合！~" at truecenter with dissolve
+    pause 2.0
+    hide text with dissolve
+    "羽依里" "这是把精彩部分全都剪贴到一本本子上了？"
+    "《社恐少女与死宅少年》、《稍微有点 *** 的痴女玩伴》、《人偶少女的消失》、《邻家大姐姐的 XX 太 ** 了》"
+    "《酷爱旅行的同龄少女向我告白》，《姐妹间的 *** 游戏》……"
+    "XP 大集合。"
+    "良一" "厉害吧，这下就不用翻来翻去了。"
+    "男生的快乐就是这么简单。"
+    "良一" "书就先借给你了，看完记得还回来。"
+    "羽依里" "OK~！好东西怎么能一个人独享。"
+    stop music fadeout 1.0
+    hide ru with dissolve
+    "野美希" "你们俩鬼鬼祟祟地干什么呢？"
+    "羽依里/良一" "哇啊啊啊啊啊！？"
+    play music "bgm/bgm35.ogg" fadein 0.5
+    "书！书飞出去了！！"
+    "不小心扔掉了 *** 书精选集合！"
+    "野美希" "一看就不是什么好事。"
+    "羽依里/良一" "没有！啊哈哈哈……"
+    "良一" "……我们只是在讨论怎么收废品赚钱买冰棍而已"
+    "羽依里" "啊对对对，最近刚刚给小蓝送过礼物，现在钱包空了"
+    "小本子从身后的围栏飞了过去，落到别人家的院子里。"
+    "野美希" "是嘛，没想到你们已经困难到这种地步了。"
+    "野美希" "我这里正好"
+    play sound "effect/coin-get.mp3"
+    show text "~获得了 100 日元！~" at truecenter with dissolve
+    pause 2.0
+    hide text with dissolve
+    stop music fadeout 0.5
+    "走掉了。"
+    "羽依里/良一" "唔！可恶啊啊啊啊啊——"
+    show ru normal smile at truecenter with dissolve
+    "良一" "还好我还留了一手，羽依里，你还记得我上次给你的那叠草稿纸吗？"
+    "羽依里" "草稿纸……？哦那个啊，我给镜子阿姨用了。话说什么叫留了一手"
+    play music "bgm/bgm36.ogg" fadein 0.5
+    "良一" "蛤？……出事了……"
+    "羽依里" "什么意思？"
+    "良一" "其中一张……"
+    "羽依里" "其中一张？"
+    "良一" "其中一张，是 *** 书集合的目录啊啊啊啊啊——！！！"
+    "羽依里" "坏了"
+    "羽依里" "怪不得最近镜子阿姨看我的表情怪怪的，好像几次都想说些什么都忍住了。"
+    "羽依里" "没救了。"
+    "良一" "没救了呢。"
+    "回去好好给镜子阿姨道个歉吧。"
+    stop music fadeout 0.5
+    scene cg_ao09_0102 with fade
+    show text "~ August 4th ~" at truecenter with dissolve
+    pause 2.0
+    scene bg019a1 with fade
+    play music "bgm/bgm08.ogg" fadein 0.5
+    "早上自然醒就是神清气爽。和被闹钟叫起来一点也不一样。"
+    "话说几点了？"
+    "11 点……"
+    stop music
+    show bg019a1:
+        matrixcolor SaturationMatrix(1.0)
+        linear 1.0 matrixcolor SaturationMatrix(0.0)
+    "喂喂，怎么回事啊。我最近根本没碰蝴蝶啊。"
+    show bg019a1:
+        matrixcolor SaturationMatrix(0.0)
+        linear 1.0 matrixcolor SaturationMatrix(1.0)
+    "糟糕，早上 9 点约好和蓝一起去医院看望苍的。"
+    "赶紧准备一下，出发前往镇上的医院。"
+    play music "bgm/bgm08.ogg" fadein 0.5
+    scene bg017a with fade
+    show ky normal want_to_say with dissolve
+    "镜子" "早上好羽依里，有个想要给你的东西。"
+    menu:
+        "听一下":
+            jump ch2_1_c1
+        "不听":
+            jump ch2_1_c2
+label ch2_1_c1:
+    "羽依里" "是什么呢？"
+    show ky normal smile
+    "镜子" "啊，之前你让我再翻译一遍的书已经翻译好了。"
+    "羽依里" "谢谢，我就收下了，这个肯定很有用！"
+    play sound "effect/coin-get.mp3"
+    show text "~获得了古书译本！~" at truecenter with dissolve
+    pause 2.0
+    hide text with dissolve
+    "放到包里，下次有空再读一下吧。"
+    show ky normal want_to_say
+    "镜子" "对了，有一个新的发现……"
+    show ky normal surprise
+    "羽依里" "抱歉！今天有点赶时间，下次再说吧！"
+    scene bg016a with fade
+    "我骑上摩托车马上向医院方向跑去。"
+    jump ch2_2
+label ch2_1_c2:
+    $ ending = 2
+    jump ch2_2
+label ch2_2:
+    stop music fadeout 0.5
+    scene cg_ao09_0201 with fade
+    play music "bgm/bgm14.ogg" fadein 0.5
+    "到了医院，结果蓝根本不在。"
+    "护士" "蓝小姐吗？刚才好像走了，说着什么要给苍的男朋友一点教训就跑开了。"
+    "羽依里" "坏了坏了。"
+    "羽依里" "总之，先别管那么多了。我记得蓝说过让我来尝试一下给苍擦身体。"
+    "我把病房门关好，拿出毛巾和脸盆。"
+    "羽依里" "苍，要给你擦身体了哦~"
+    "（咽口水）"
+    scene cg_ao09_0101 with dissolve
+    "慢慢掀开被子。"
+    "苍" "嗯……！？"
+    show layer master at shake
+    with Pause(0.2)
+    show layer master
+    "立马缩回去了。"
+    "空调太冷了吗？赶紧调高点度数。"
+    "羽依里" "嘿！看我两分钟光速结束战斗！"
+    "慢慢拉起苍的衣服，把毛巾贴到身上。"
+    transform zoom_head:
+        linear 1.0 zoom 2 offset(600,800)
+    show cg_ao09_0101 at zoom_head
+    "羽依里" "哇！不要乱动呀，我不是坏叔叔，不会怎么样的"
+    "苍" "请温柔一点……"
+    "羽依里" "怎么睡觉还在说那句？"
+    show layer master at shake
+    with Pause(0.4)
+    show layer master
+    "羽依里" "怎么回事！四肢的移动速度竟然超过了我的手速！？"
+    "燃起来了！"
+    "羽依里" "噢噢噢噢哦——看我的！一决胜负吧！！"
+    show layer master at shake
+    with Pause(1.0)
+    show layer master
+    "谢谢你天善。练出来的手速居然真的有用。"
+    "羽依里" "好累。终于擦完了。"
+    "能合法看身体真不错。"
+    scene cg_ao09_0101 with dissolve
+    "有点想上手摸一下。"
+    "周围没有人……"
+    "不行！怎么能不经过同意就这么做呢！？"
+    "但是好像没人会看到欸。而且本来就是在擦身体。"
+    "嗯，没事的。"
+    menu:
+        "偷偷摸一下":
+            jump ch2_2_c1
+        "放弃":
+            jump ch2_2_c2
+label ch2_2_c1:
+    "我偷偷伸出手。"
+    play music "bgm/bgm36.ogg" fadein 0.5
+    "好舒服。"
+    "苍" "嗯~"
+    scene cg_ao09_0102 with dissolve
+    "你也很舒服对吧。"
+    "摸了个爽。"
+    scene cg_ao09_0101 with fade
+    "蓝" "喂——！为什么早上不来……啊。"
+    "羽依里" "……"
+    "蓝" "没事你们继续。"
+    scene cg_ao09_0103 with dissolve
+    "顺手把门带上了！"
+    "羽依里" "等等——"
+    "……"
+    stop music fadeout 0.5
+    scene cg_ao09_0101 with fade
+    "蓝" "下次再这样我真的会报警。"
+    "羽依里" "是是是，您说的都对，我知道错了。"
+    jump ch2_3
+label ch2_2_c2:
+    "算了，放弃吧。"
+    "我把手收了回来。"
+    scene cg_ao09_0101 with fade
+    stop music fadeout 1.0
+    play music "bgm/bgm34.ogg" fadein 0.5
+    "蓝" "喂——！为什么早上迟到啊。害我找了好久"
+    "羽依里" "对不起……"
+    "蓝" "你这家伙，连小苍都不来看，不会是心里有其他女人了吧？"
+    menu:
+        "没错":
+            $ ending = 3
+            jump be_3
+        "我可是纯爱派的":
+            jump ch2_2_c3
+        "比起苍，我还是更喜欢你":
+            jump ch2_2_c4
+label be_3:
+    "羽依里" "没错，找到新的女朋友了。"
+    scene cg_ao09_0201 with dissolve
+    "蓝" "一巴掌拍死你哦？？"
+    "蓝" "我劝你坦白。"
+    stop music fadeout 0.5
+    "羽依里" "抱歉……"
+    scene bg001a with fade:
+        matrixcolor SaturationMatrix(0.0)
+    play music "bgm/bgm22.ogg" fadein 0.5
+    "时间，总是在不经意间溜走。"
+    "在第二个夏日，我还是没能找到七影蝶。"
+    "彻彻底底的失败。"
+    "我放弃了。"
+    "直到生命的最后，我都没有找到新的伴侣。"
+    "我对不起空门家族。"
+    "苍永远地沉睡着，那份夏日的恋情，从未生根发芽。"
+    "或许那时苍只是为了小蓝，只是我的一厢情愿。"
+    "那份夏日的邂逅锁入心房，逐渐沉默，最终消散——"
+    "只留下伤心的人。"
+    show text "~ BAD END 遗憾终身 ~" at truecenter with dissolve
+    pause 2.0
     return
-    # 此处为游戏结尾。
+label ch2_2_c3:
+    "羽依里" "我可是纯爱派的。只是不小心被床绑架了。"
+    "羽依里" "不信我现在就证明给你看。"
+    play music "bgm/bgm36.ogg" fadein 0.5
+    show cg_ao09_0101 at zoom_head
+    "我凑到苍的身上，抱在怀里亲了一口。"
+    scene cg_ao09_0101 with dissolve
+    "蓝" "欸！？？好了，我知道了啦。"
+    "虽然本来是个妹控，但是现在经过相当长时间的适应和我的种种冲击性行为，已经成功消除了蓝的占有欲。"
+    "但是少女显然对这种恩爱场景根本没有免疫力，看来直球是对的。"
+    jump ch2_3
+label ch2_2_c4:
+    stop music fadeout 0.5
+    "羽依里" "其实我忍了很久了，我还是更喜欢你啊！"
+    "羽依里" "比起苍，我更喜欢蓝！"
+    "蓝" "啊？"
+    "彻底宕机了。"
+    "蓝" "你，你再说一遍？我确认下我有没有听错。"
+    menu:
+        "抱歉只是开玩笑":
+            jump ch2_2_c5
+        "我是真心的":
+            jump be_4
+label ch2_2_c5:
+    "羽依里" "抱歉我只是开个玩笑。"
+    "蓝" "我再给你一次机会重新回答。"
+    jump ch2_2_c3
+label be_4:
+    "羽依里" "比！起！苍！我！更喜欢！你！"
+    play music "bgm/bgm18.ogg" fadein 0.5
+    "蓝" "……"
+    "蓝" "你可以走了。"
+    "羽依里" "欸？"
+    scene bg009a1 with fade
+    show ai
+    "蓝" "听到没有！你可以走了！不要回来了！"
+    "蓝" "我再也不想见到你了！"
+    hide ai with dissolve
+    "蓝的脸上挂满了泪珠。"
+    "蓝" "这种花心的家伙，小苍遇上了真是太倒霉了。"
+    "蓝" "不过放心吧，我会永远保护小苍的。"
+    "蓝" "永远……"
+    show text "~ BAD END 逐出家门 ~" at truecenter with dissolve
+    pause 2.0
+    return
+    
+    return
+label ch2_3:
+    stop music fadeout 0.5
+    scene bg009a1 with fade
+    play sound "effect/rain.mp3" fadein 0.5 loop
+    "好像下雨了啊。虽然只是下午，但是却根本没法看到太阳。"
+    "赶紧回去吧。"
+    scene bg019n1 with fade:
+        matrixcolor SaturationMatrix(0.6)
+    "果然，傍晚就开始下大了。"
+    "镜子" "哎呀，下得还真大呢。"
+    "羽依里" "是啊。今天就早点睡吧。"
+    "……"
+    stop sound
+    pause 1.0
+    play music "bgm/bgm27.ogg" fadein 0.5
+    scene bg201a with fade:
+        matrixcolor SaturationMatrix(0.0)
+    "我顺着房门，进入了那个熟悉又陌生的房间。"
+    "房间里的书架摆满了教科书，似乎是一个高中女生的房间。"
+    "啊，有镜子。"
+    "我究竟是个什么样的存在？"
+    "我好像会飞，但似乎丢掉了一些非常重要的东西。"
+    "不过，现在已经不用猜测了。"
+    "映入眼帘的，是镜子中的我自己——一只发着诡异光芒的蝴蝶。"
+    "蝴蝶" "我……是蝴蝶？"
+    "蝴蝶" "不对，不是这样的。肯定不是。"
+    "蝴蝶" "马上就要回想起来了。"
+    "清晰的记忆流注入了我的脑海。"
+    "那场夏日的邂逅，那些共同经历的回忆——"
+    "原来是“我”啊。"
+    "苍" "我怎么会忘了你呢。"
+    "真不应该啊。"
+    scene bg_kuro with dissolve
+    "当我自责之时，时间早已夺走了我的意识。"
+    "还是不行吗。"
+    "抱歉……"
+    "我可能要先行离开了。"
+    "……"
+    stop music fadeout 0.5
+    scene bg202n with fade
+    show text "~ Auguest 5th ~" at truecenter with dissolve
+    pause 2.0
+    scene bg019n3 with fade
+    "？？？" "……羽依里"
+    "？？？" "……醒醒……"
+    "好像有人在叫我。"
+    scene bg019n1 with dissolve:
+        matrixcolor SaturationMatrix(0.4)
+    play sound "effect/rain.mp3" fadein 0.5 loop
+    "蓝" "起来了！"
+    "窗外的雨声连绵不绝，是暴风雨正在经过鸟白岛吗？"
+    "大颗的水珠滴落到我的脸上，面前是蓝焦急的脸色。"
+    show ai with dissolve
+    "蓝" "羽依里……苍她……"
+    "羽依里" "苍……啊，苍怎么了！？"
+    hide ai with dissolve
+    "蓝" "抱歉。"
+    "蓝" "可能是最后一面了。"
+    "羽依里" "什么……？"
+    stop sound
+    play music "bgm/bgm19.ogg" fadein 0.5
+    "心中的那些担忧，突然成形的那一刻——"
+    show layer master:
+        matrixcolor SaturationMatrix(1.0)
+        linear 1.0 matrixcolor SaturationMatrix(0.0)
+    "蓝" "走吧。"
+    "羽依里" "……"
+    "v4.0 剧情到此为止，请立即存档！"
+    return
+
+
+
+
